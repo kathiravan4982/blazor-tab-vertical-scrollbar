@@ -65,28 +65,6 @@ dotnet run
 7. Open the local URL displayed in the terminal after the application starts.
 8. Select the available tabs and scroll through content that extends beyond the fixed tab height.
 
-## Project Structure
-
-`VerticalScrollbar.sln` — solution file used to open, build, and run the sample.
-
-`VerticalScrollbar.csproj` — project file containing the application configuration and NuGet package references.
-
-`Pages/Index.razor` — root feature page containing the `SfTab` component, tab items, tab headers, content templates, fixed height, and lengthy sample content.
-
-`Pages/_Host.cshtml` — host page used to load the Blazor application.
-
-`Program.cs` — application startup entry point.
-
-`App.razor` — root Razor component of the application.
-
-`_Imports.razor` — shared Razor namespace imports used by the application.
-
-`appsettings.json` — application configuration settings.
-
-`appsettings.Development.json` — development-environment configuration settings.
-
-`README.md` — repository documentation and instructions for running the sample.
-
 ## Support and Feedback
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
